@@ -10,6 +10,9 @@ Timestep: 10:00 - 11:30
 add file chaptersCompleted.txt to your project
 
 add file .env to your project, add:
-NOVEL_URL = https://someHost/somePath/chapter-
-MAX_CHAPTERS = 100(check the max chapters of your novel, I might make a dynamic version later)
-NOVEL_NAME = Solo Leveling(check the name of your novel)
+NOVEL_CHAPTER_URL = https://someHost/somePath/novelName/chapter- (what ever the url looks like without the chapter number. You may need to alter index.js to handle your url correctly)
+NOVEL_URL = https://someHost/somePath/novelName (this is the url of the novel or where ever you need to go to to find the latest chapter number and novel name)
+
+Play around with the numberOfProcesses variable in index.js because having too many can cause an error. But having more makes everything faster.
+
+To reset all the chapters you have documented, clear the contents of chaptersCompleted.txt, delete all the txt files in the textFiles folder, and run the script again.
