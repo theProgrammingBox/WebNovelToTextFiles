@@ -1,1 +1,4 @@
 /textFiles
+/node_modules
+/.env
+/chaptersCompleted.txt

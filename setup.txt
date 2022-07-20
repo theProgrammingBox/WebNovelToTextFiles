@@ -1,0 +1,15 @@
+npm clone
+npm init -y
+npm i puppeteer dotenv
+
+add folder textFiles to your project
+change line 25 of index.js with your html path
+Tutorial: https://www.youtube.com/watch?v=lgyszZhAZOI&ab_channel=LearnWebCode
+Timestep: 10:00 - 11:30
+
+add file chaptersCompleted.txt to your project
+
+add file .env to your project, add:
+NOVEL_URL = https://someHost/somePath/chapter-
+MAX_CHAPTERS = 100(check the max chapters of your novel, I might make a dynamic version later)
+NOVEL_NAME = Solo Leveling(check the name of your novel)
